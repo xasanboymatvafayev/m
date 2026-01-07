@@ -556,13 +556,13 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         text = update.message.text
         
-        if text == "1️⃣ Testlarni boshlash":
+        if text == "💡 Testlarni boshlash":
             await start_tests(update, context)
-        elif text == "2️⃣ Bonus":
+        elif text == "🎁 Bonus":
             await bonus(update, context)
-        elif text == "3️⃣ Hisobim":
+        elif text == "💰 Hisobim":
             await show_account(update, context)
-        elif text == "4️⃣ Do'stlarni taklif qilish":
+        elif text == "🤝 Do'stlarni taklif qilish":
             await invite_friends(update, context)
     except Exception as e:
         logger.error(f"Handle messageda xatolik: {e}")
