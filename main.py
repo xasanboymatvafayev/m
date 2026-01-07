@@ -537,10 +537,10 @@ async def show_main_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Asosiy menyuni ko'rsatish"""
     try:
         keyboard = [
-            [KeyboardButton("1️⃣ Testlarni boshlash")],
-            [KeyboardButton("2️⃣ Bonus")],
-            [KeyboardButton("3️⃣ Hisobim")],
-            [KeyboardButton("4️⃣ Do'stlarni taklif qilish")]
+            [KeyboardButton("💡 Testlarni boshlash")],
+            [KeyboardButton("🎁 Bonus")],
+            [KeyboardButton("💰 Hisobim")],
+            [KeyboardButton("🤝 Do'stlarni taklif qilish")]
         ]
         reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
         
